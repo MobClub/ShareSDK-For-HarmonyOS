@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "OhosShareSDK"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "ShareDemo"
+    },
+    {
+      "name": "share",
+      "value": "分享"
+    },
+    {
+      "name": "wechat",
+      "value": "微信"
+    } ,
+    {
+      "name": "wechat_friend",
+      "value": "微信好友"
+    } ,
+    {
+      "name": "wechat_friend_moment",
+      "value": "微信圈"
+    } ,
+    {
+      "name": "wechat_friend_collect",
+      "value": "微信收藏"
+    },
+    {
+      "name": "share_content",
+      "value": "ShareSDK for Android不仅集成简单、支持如QQ好友、微信、新浪微博、腾讯微博等所有社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网 http://mob.com @Mob移动开发者服务平台"
+    } ,
+    {
+      "name": "share_content_short",
+      "value": "ShareSDK不仅集成简单、支持如微信、新浪微博、腾讯微博等平台，还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网 http://mob.com @Mob移动开发者服务平台"
+    },
+    {
+      "name": "evenote_title",
+      "value": "ShareSDK是一个神奇的SDK"
+    },
+    {
+      "name": "auth",
+      "value": "授权"
+    },
+    {
+      "name": "privacy_content",
+      "value": "\u3000欢迎您使用MobTech提供的演示DEMO，ShareSDK为开发者提供的社交分享SDK，支持微信、抖音、QQ、微博、Facebook、Twitter等全球40+主流社交平台账号内的一键分享、第三方登录授权以及闭环分享服务，不仅极大地方便了您的终端用户的服务体验，更为您实时了解终端用户的分享数、回流数、意向分享等数据进行了统计分析。为了对您的闭环分享功能进行来源追溯并帮助您更精细化运营，我们将依据MobTech的《隐私政策》来帮助你了解我们需要收集哪些数据"
+    },
+    {
+      "name": "privacy_details",
+      "value": "详情见"
+    }
+  ]
+}

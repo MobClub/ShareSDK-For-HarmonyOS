@@ -1,0 +1,92 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#ZH-CN_TOPIC_0000001154985555__section1112183053510
+ohos {
+
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+apply plugin: 'com.mob.hossdk'
+MobSDK {
+    ShareSDK {
+        loopShare true
+        devInfo {
+            SinaWeibo {
+                id 1
+                sortId 59
+                appKey "3201194191"
+                appSecret "0334252914651e8f76bad63337b3b78f"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient true
+                enable true
+            }
+            QZone {
+                id 3
+                sortId 3
+                appId "1110451818"
+                appKey "OlbzvuSP3Hgj5yNS"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+            Wechat {
+                id 4
+                sortId 4
+                appId "wx1b050162bb23ed83"
+                appSecret "3908a2a00df8360d6484bd883835d6cc"
+                userName "gh_b0c6a9ca668a"
+                path "pages/index/index?id=mob"
+                withShareTicket true
+                miniprogramType 2
+                bypassApproval false
+                enable true
+            }
+            WechatMoments {
+                id 5
+                sortId 5
+                appId ="wx1b050162bb23ed83"
+                appSecret ="3908a2a00df8360d6484bd883835d6cc"
+                bypassApproval =false
+                enable =true
+            }
+            WechatFavorite {
+                id 6
+                sortId 6
+                appId "wx1b050162bb23ed83"
+                appSecret "3908a2a00df8360d6484bd883835d6cc"
+                bypassApproval false
+                enable true
+            }
+            QQ {
+                id 7
+                sortId 7
+                appId "1110451818"
+                appKey "OlbzvuSP3Hgj5yNS"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
+    compileOnly files("libs/android.jar")
+}
+decc {
+    supportType = ['html', 'xml']
+}

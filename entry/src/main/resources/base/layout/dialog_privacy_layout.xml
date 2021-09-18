@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    ohos:padding="15vp"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="Share SDK Demo"
+        ohos:text_size="16fp"/>
+
+
+    <TextField
+        ohos:top_margin="25vp"
+        ohos:weight="1"
+        ohos:enabled="false"
+        ohos:text_size="16fp"
+        ohos:id="$+id:text"
+        ohos:height="match_content"
+        ohos:width="match_content"/>
+
+
+    <DirectionalLayout
+        ohos:height="30vp"
+        ohos:bottom_margin="15vp"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:yes_btn"
+            ohos:height="30vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_button"
+            ohos:text="同意"
+            ohos:text_size="16fp"/>
+
+        <Button
+            ohos:id="$+id:no_btn"
+            ohos:height="30vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:background_button"
+            ohos:left_margin="50vp"
+            ohos:text="不同意"
+            ohos:text_size="16fp"/>
+    </DirectionalLayout>
+</DirectionalLayout>

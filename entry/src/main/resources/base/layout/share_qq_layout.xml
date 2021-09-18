@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:orientation="vertical">
+
+    <include
+        ohos:height="50fp"
+        ohos:width="match_content"
+        ohos:layout="$layout:title_bar"/>
+
+    <RadioContainer
+        ohos:id="$+id:tencent_type_rc"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_margin="50vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="20vp">
+
+        <RadioButton
+            ohos:id="$+id:wechat_friend"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="QQ"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+        <RadioButton
+            ohos:id="$+id:wechat_friend_collect"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="QQ空间"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+    </RadioContainer>
+
+    <include
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:layout="$layout:share_type_layout"/>
+</DirectionalLayout>

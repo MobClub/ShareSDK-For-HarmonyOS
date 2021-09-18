@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <include
+        ohos:height="50fp"
+        ohos:width="match_content"
+        ohos:layout="$layout:title_bar"/>
+
+    <Button
+        ohos:id="$+id:wechat"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="$string:wechat"
+        ohos:text_size="25vp"/>
+
+    <Button
+        ohos:id="$+id:QQ"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="QQ"
+        ohos:text_size="25vp"
+        ohos:top_margin="30vp"/>
+
+    <Button
+        ohos:id="$+id:Sina"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="Sina"
+        ohos:text_size="25vp"
+        ohos:top_margin="30vp"/>
+
+</DirectionalLayout>

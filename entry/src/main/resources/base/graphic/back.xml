@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:autoMirrored="true"
+    ohos:viewportHeight="24vp"
+    ohos:viewportWidth="24vp">
+
+    <path
+        ohos:fillColor="#FF67CD28"
+        ohos:pathData="M15.41,7.41L14,6l-6,6 6,6 1.41,-1.41L10.83,12z"/>
+</vector>

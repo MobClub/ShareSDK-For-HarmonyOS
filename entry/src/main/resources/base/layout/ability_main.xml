@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:share_btn"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text="$string:share"
+        ohos:text_size="30fp"/>
+
+    <Button
+        ohos:visibility="hide"
+        ohos:id="$+id:auth_btn"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:enabled="false"
+        ohos:text="$string:auth"
+        ohos:text_size="30fp"
+        ohos:top_margin="30vp"/>
+</DirectionalLayout>
